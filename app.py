@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     # Redireccionar al archivo PHP
-    return redirect("archivo.php")
+    return redirect("index.php")
 
 if __name__ == '__main__':
     app.run() 
